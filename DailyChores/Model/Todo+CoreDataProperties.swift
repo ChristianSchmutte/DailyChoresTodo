@@ -17,7 +17,7 @@ extension Todo {
         return NSFetchRequest<Todo>(entityName: "Todo")
     }
 
-    @NSManaged public var title: String?
+    @NSManaged public var title: String
     @NSManaged public var done: Bool
     @NSManaged public var repeats: Bool
     @NSManaged public var parentCategory: Category?

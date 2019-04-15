@@ -13,16 +13,15 @@
 		14FA467F22649DCA00BE6F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FA467E22649DCA00BE6F51 /* Assets.xcassets */; };
 		14FA468222649DCA00BE6F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FA468022649DCA00BE6F51 /* LaunchScreen.storyboard */; };
 		14FA468E2264A9FB00BE6F51 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA468D2264A9FB00BE6F51 /* CategoryTableViewController.swift */; };
-		14FA46912264AA3200BE6F51 /* CategoryTableViewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46902264AA3200BE6F51 /* CategoryTableViewMethods.swift */; };
+		14FA46912264AA3200BE6F51 /* CategoryTableCoreDataMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46902264AA3200BE6F51 /* CategoryTableCoreDataMethods.swift */; };
 		14FA46942264AA7000BE6F51 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46932264AA7000BE6F51 /* TodoTableViewController.swift */; };
 		14FA46962264AA8000BE6F51 /* TodoListDataTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46952264AA8000BE6F51 /* TodoListDataTasks.swift */; };
 		14FA46982264AACA00BE6F51 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46972264AACA00BE6F51 /* AddTodoViewController.swift */; };
-		14FA469F2264AC2B00BE6F51 /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA469B2264AC2B00BE6F51 /* Todo+CoreDataClass.swift */; };
-		14FA46A02264AC2B00BE6F51 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA469C2264AC2B00BE6F51 /* Todo+CoreDataProperties.swift */; };
-		14FA46A12264AC2B00BE6F51 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA469D2264AC2B00BE6F51 /* Category+CoreDataClass.swift */; };
-		14FA46A22264AC2B00BE6F51 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA469E2264AC2B00BE6F51 /* Category+CoreDataProperties.swift */; };
-		14FA46A42264C0BD00BE6F51 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46A32264C0BD00BE6F51 /* CategoryTableViewCell.swift */; };
 		14FA46A62264C0D000BE6F51 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46A52264C0D000BE6F51 /* TodoTableViewCell.swift */; };
+		14FA46B02264FCFF00BE6F51 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46AC2264FCFF00BE6F51 /* Category+CoreDataClass.swift */; };
+		14FA46B12264FCFF00BE6F51 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46AD2264FCFF00BE6F51 /* Category+CoreDataProperties.swift */; };
+		14FA46B22264FCFF00BE6F51 /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46AE2264FCFF00BE6F51 /* Todo+CoreDataClass.swift */; };
+		14FA46B32264FCFF00BE6F51 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FA46AF2264FCFF00BE6F51 /* Todo+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,16 +33,15 @@
 		14FA468122649DCA00BE6F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14FA468322649DCA00BE6F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14FA468D2264A9FB00BE6F51 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
-		14FA46902264AA3200BE6F51 /* CategoryTableViewMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewMethods.swift; sourceTree = "<group>"; };
+		14FA46902264AA3200BE6F51 /* CategoryTableCoreDataMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableCoreDataMethods.swift; sourceTree = "<group>"; };
 		14FA46932264AA7000BE6F51 /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
 		14FA46952264AA8000BE6F51 /* TodoListDataTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListDataTasks.swift; sourceTree = "<group>"; };
 		14FA46972264AACA00BE6F51 /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
-		14FA469B2264AC2B00BE6F51 /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = "<group>"; };
-		14FA469C2264AC2B00BE6F51 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		14FA469D2264AC2B00BE6F51 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
-		14FA469E2264AC2B00BE6F51 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		14FA46A32264C0BD00BE6F51 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		14FA46A52264C0D000BE6F51 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		14FA46AC2264FCFF00BE6F51 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		14FA46AD2264FCFF00BE6F51 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		14FA46AE2264FCFF00BE6F51 /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		14FA46AF2264FCFF00BE6F51 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +98,10 @@
 		14FA468A22649E1200BE6F51 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				14FA469B2264AC2B00BE6F51 /* Todo+CoreDataClass.swift */,
-				14FA469C2264AC2B00BE6F51 /* Todo+CoreDataProperties.swift */,
-				14FA469D2264AC2B00BE6F51 /* Category+CoreDataClass.swift */,
-				14FA469E2264AC2B00BE6F51 /* Category+CoreDataProperties.swift */,
+				14FA46AC2264FCFF00BE6F51 /* Category+CoreDataClass.swift */,
+				14FA46AD2264FCFF00BE6F51 /* Category+CoreDataProperties.swift */,
+				14FA46AE2264FCFF00BE6F51 /* Todo+CoreDataClass.swift */,
+				14FA46AF2264FCFF00BE6F51 /* Todo+CoreDataProperties.swift */,
 				14FA467B22649DC800BE6F51 /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
@@ -129,8 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				14FA468D2264A9FB00BE6F51 /* CategoryTableViewController.swift */,
-				14FA46902264AA3200BE6F51 /* CategoryTableViewMethods.swift */,
-				14FA46A32264C0BD00BE6F51 /* CategoryTableViewCell.swift */,
+				14FA46902264AA3200BE6F51 /* CategoryTableCoreDataMethods.swift */,
 			);
 			path = CategoryVC;
 			sourceTree = "<group>";
@@ -227,16 +224,15 @@
 				14FA467D22649DC800BE6F51 /* DataModel.xcdatamodeld in Sources */,
 				14FA46982264AACA00BE6F51 /* AddTodoViewController.swift in Sources */,
 				14FA46962264AA8000BE6F51 /* TodoListDataTasks.swift in Sources */,
-				14FA46A12264AC2B00BE6F51 /* Category+CoreDataClass.swift in Sources */,
+				14FA46B02264FCFF00BE6F51 /* Category+CoreDataClass.swift in Sources */,
 				14FA46942264AA7000BE6F51 /* TodoTableViewController.swift in Sources */,
 				14FA467522649DC800BE6F51 /* AppDelegate.swift in Sources */,
-				14FA46A22264AC2B00BE6F51 /* Category+CoreDataProperties.swift in Sources */,
+				14FA46B12264FCFF00BE6F51 /* Category+CoreDataProperties.swift in Sources */,
+				14FA46B22264FCFF00BE6F51 /* Todo+CoreDataClass.swift in Sources */,
+				14FA46B32264FCFF00BE6F51 /* Todo+CoreDataProperties.swift in Sources */,
 				14FA46A62264C0D000BE6F51 /* TodoTableViewCell.swift in Sources */,
-				14FA469F2264AC2B00BE6F51 /* Todo+CoreDataClass.swift in Sources */,
-				14FA46912264AA3200BE6F51 /* CategoryTableViewMethods.swift in Sources */,
+				14FA46912264AA3200BE6F51 /* CategoryTableCoreDataMethods.swift in Sources */,
 				14FA468E2264A9FB00BE6F51 /* CategoryTableViewController.swift in Sources */,
-				14FA46A02264AC2B00BE6F51 /* Todo+CoreDataProperties.swift in Sources */,
-				14FA46A42264C0BD00BE6F51 /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

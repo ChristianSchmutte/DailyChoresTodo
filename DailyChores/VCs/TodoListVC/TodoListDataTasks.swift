@@ -11,12 +11,5 @@ import UIKit
 
 extension TodoTableViewController {
 
-    func loadTodos() {
-        
-    }
-    
-    func saveTodos() {
-        
-    }
-    
+
 }

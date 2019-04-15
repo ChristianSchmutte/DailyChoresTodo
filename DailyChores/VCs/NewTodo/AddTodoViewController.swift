@@ -7,10 +7,18 @@
 //
 
 import UIKit
+import CoreData
+
+protocol CreateTodo {
+    func createTodo(title: String, done: Bool, repeats: Bool)
+}
 
 class AddTodoViewController: UIViewController {
     
     // MARK: - Global Variables
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    var delegate: TodoTableViewController?
+
     
     // MARK: - Outlets
 
@@ -22,40 +30,29 @@ class AddTodoViewController: UIViewController {
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        hideKeyboardWhenTappedAround()
+
         
     }
+   
+    @IBAction func saveButtonTapped(_ sender: UIButton) {
+        delegate?.createTodo(title: textField.text!, done: false, repeats: dailySwitch.isOn)
+        navigationController?.popViewController(animated: true)
+    }
     
-    
-
 
 }
 
-extension AddTodoViewController: UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row == 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "addTodoTilteCell")
-            
-            return cell!
-        } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "addTodoDailyCell")
-            
-            return cell!
-        }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        tableView.frame.size.height = 160
-        
-        return 80
-    }
-    
-    
-    
 }
